@@ -1,0 +1,214 @@
+/* -- shared --- style ---- start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+/* ---- shared ------ style ------ end ---- */
+/*--- custom css ---- style ---- start */
+:root{
+    --primary-color: #FF42A5;
+    --secondary-color: #0B0223;
+    --white-colo: #ffffff;
+    --button-two-color: #4EC5F7;
+    --gradient-color: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    --menu-font-color: #3C354F;
+    --p-font-color: #534C64;
+    --heading-h1-font-size: 5.938rem;
+    --heading-h2-font-size: 3rem;
+    --heading-h3-font-size: 2rem;
+    --heading-h4-font-size: 1.5rem;
+    --p-font-text-size-one: 1.3rem;
+    --p-font-text-size-two: 1.1rem;
+    --p-font-text-size-three: 1rem;
+    --btn-bg-one: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    --btn-bg-two: #4EC5F7;
+}
+/* ---- custom css ------ style ------ end ---- */
+
+/*--- project style guidelines ---- style ---- start */
+.menu-text-style{
+    color: var(--menu-font-color);
+    font-size: var(--p-text-two);
+    font-weight: 500;
+}
+.h1-text{
+    font-size: var(--heading-h1-font-size);
+    font-weight: 800;
+    text-transform: uppercase;
+    background: var(--gradient-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.h2-text{
+    color: var(--secondary-color);
+    font-size: var(--heading-h2-font-size);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.h2-gradient-text{
+    font-size: var(--heading-h2-font-size);
+    font-weight: 700;
+    background: var(--gradient-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.h3-text{
+    color: var(--p-font-color);
+    font-size: var(--heading-h3-font-size);
+    font-weight: 700;
+}
+.h4-text{
+    color:var(--p-font-color);
+    font-size: var(--heading-h4-font-size);
+    font-weight: 500;
+}
+
+.p-text-one{
+    color: var(--p-font-color);
+    font-size: var(--p-font-text-size-one);
+    font-weight: 500;
+}
+.p-text-two{
+    color:var(--p-font-color);
+    font-size: var(--p-font-text-size-two);
+    font-weight: 400;
+}
+.p-text-three{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: var(--p-font-text-size-three);
+    font-weight: 500;
+}
+.btn-primary{
+    padding: 21px 40px;
+    border-radius: 48px;
+    background: var(--btn-bg-one);
+}
+.btn-secondary{
+    padding: 21px 40px;
+    border-radius: 48px;
+    background: var(--btn-bg-one);
+}
+.btn-white{
+    padding: 21px 40px;
+    border-radius: 48px;
+    background: var(--white-colo);
+}
+.white-colo{
+    color: var(--white-color);
+}
+.primary-color{
+    color: var(--primary-color);
+}
+.p-text-marin-20{
+    margin: 20px 0;
+}
+.text-marin-15{
+    margin: 15px 0;
+}
+.text-marin-10{
+    margin: 10px 0;
+}
+/* ---- project style guidelines ------ style ------ end ---- */
+
+/* -- nav--- style ---- start */
+#nav-id{
+    min-height: 50px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-container-row{
+    display: flex;
+    align-items: center;
+}
+.nav-logo-col img{
+    width: 100%;
+    object-fit: cover;
+}
+.nav-container-col-one{
+    width: 20%;  
+}
+.nav-container-col-two{
+    width: 80%;
+}
+.nav-menu-col ul{
+    display: flex;
+    gap: 30px;
+    justify-content: end;
+    margin-right: 50px;
+    
+}
+.nav-container-col-three{
+    width: 20%;
+}
+.nav-icon-col ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    line-height: 60px;
+}
+.nav-icon-col ul{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+.nav-icon-youtube{
+    color: #F61C0D;
+    font-size: 1.3rem;
+}
+.nav-icon-tiktook{
+    font-size: 1.3rem;
+}
+/* ----  nav------ style ------ end ---- */
+
+/* -- --- style ---- start */
+/* ----  ------ style ------ end ---- */
+
+/* -- --- style ---- start */
+/* ----  ------ style ------ end ---- */
+
+/* -- --- style ---- start */
+/* ----  ------ style ------ end ---- */
+
+/* -- --- style ---- start */
+/* ----  ------ style ------ end ---- */
+
+/* -- --- style ---- start */
+/* ----  ------ style ------ end ---- */
+
+/* -- --- style ---- start */
+/* ----  ------ style ------ end ---- */
+
+/* -- --- style ---- start */
+/* ----  ------ style ------ end ---- */
+
+/* -- --- style ---- start */
+/* ----  ------ style ------ end ---- */
+
+/* -- --- style ---- start */
+/* ----  ------ style ------ end ---- */
+
+/* -- --- style ---- start */
+/* ----  ------ style ------ end ---- */
+
+/* -- --- style ---- start */
+/* ----  ------ style ------ end ---- */
+
+/* -- --- style ---- start */
+/* ----  ------ style ------ end ---- */
