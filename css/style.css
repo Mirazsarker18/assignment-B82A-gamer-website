@@ -35,7 +35,7 @@ img{
     --heading-h4-font-size: 1.5rem;
     --p-font-text-size-one: 1.3rem;
     --p-font-text-size-two: 1.1rem;
-    --p-font-text-size-three: 1rem;
+    --p-font-text-size-three: .87rem;
     --btn-bg-one: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     --btn-bg-two: #4EC5F7;
 }
@@ -85,16 +85,19 @@ img{
     color: var(--p-font-color);
     font-size: var(--p-font-text-size-one);
     font-weight: 500;
+    line-height: 24px;
 }
 .p-text-two{
     color:var(--p-font-color);
     font-size: var(--p-font-text-size-two);
     font-weight: 400;
+    line-height: 24px;
 }
 .p-text-three{
     color: rgba(255, 255, 255, 0.60);
     font-size: var(--p-font-text-size-three);
     font-weight: 500;
+    line-height: 24px;
 }
 .btn-primary{
     padding: 15px 30px;
@@ -112,12 +115,22 @@ img{
     padding: 21px 40px;
     border-radius: 48px;
     background: var(--white-color);
+    border: none;
 }
 .white-color{
     color: var(--white-color);
 }
 .primary-color{
     color: var(--primary-color);
+}
+.secondary-color{
+    color: var(--secondary-color);
+}
+.font-700{
+    font-weight: 900;
+}
+.text-marin-40{
+    margin: 2px 0 40px 0;
 }
 .text-marin-20{
     margin: 20px 0;
@@ -128,11 +141,14 @@ img{
 .text-marin-10{
     margin: 10px 0;
 }
+.normal-font{
+    text-transform: none;
+}
 /* ---- project style guidelines ------ style ------ end ---- */
 
 /* -- nav--- style ---- start */
 #nav-id{
-    min-height: 50px;
+    min-height: 60px;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
@@ -185,12 +201,11 @@ img{
     background: url(../assets/images/banner-bg.png);
 }
 .banner-container-row{
-    display: flex;
-    
-    
+    display: flex; 
 }
 .banner-container-col-text{
     width: 50%;
+    margin-top: 80px;
     
 }
 .banner-container-col-img{
@@ -198,32 +213,224 @@ img{
 }
 .banner-container-col-img img{
     width: 100%;
+    margin-bottom: -30px;
 }
 .banner-icon-style{
     margin-right: 15px;
 }
 /* ---- Banner  ------ style ------ end ---- */
 
-/* -- --- style ---- start */
-/* ----  ------ style ------ end ---- */
+/* --We are gamer --- style ---- start */
+#gamer-id{
+    padding: 40px 0;
+}
+.gamer-container-row{
+    display: flex;
+    gap: 10px;
+}
+.gamer-container-col-img{
+    max-width: 50%;
+}
+.gamer-container-col-img img{
+    max-width: 100%;
+}
+.gamer-container-col-text{
+    max-width: 50%;
+    display: flex;
+    text-align: right;
+    padding: 20px;
+}
 
-/* -- --- style ---- start */
-/* ----  ------ style ------ end ---- */
+/* ---- We are gamer ------ style ------ end ---- */
 
-/* -- --- style ---- start */
-/* ----  ------ style ------ end ---- */
+/* -- Videos--- style ---- start */
+#video-id{
+    padding: 60px 0;
+}
+.video-container-col-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.video-container-video-col{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+.video-col-box{
+    margin-top: 40px;
+}
+.video-col-box img{
+    width: 100%;
+}
+/* ---- Videos ------ style ------ end ---- */
 
-/* -- --- style ---- start */
-/* ----  ------ style ------ end ---- */
+/* -- Downloads--- style ---- start */
+#download-id{
+    padding: 50px 0 90px 0;
+}
+.downloads-container-col{
+    display: flex;
+    gap: 30px;
+}
+.downloads-container-text-col{
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.downloads-col-text{
+    width: 60%;
+    text-align: right;
+}
+.downloads-container-img-col{
+    max-width: 50%;
+}
+.downloads-main-img-col img{
+    max-width: 100%;
+}
+.downloads-second-img-col{
+    position: absolute;
+    margin-top: -250px;
+    margin-left: -100px;
+}
+.downloads-second-img-col img{
+    max-width: 80%;
+}
+/* ---- Downloads ------ style ------ end ---- */
 
-/* -- --- style ---- start */
-/* ----  ------ style ------ end ---- */
+/* -- Play Games--- style ---- start */
+#play-games-id{
+    padding: 50px 0 90px 0;
+}
+.play-game-container-col{
+    display: flex;
+    gap: 40px;
+}
+.play-game-container-text-col{
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.play-game-col-text{
+    width: 70%;
+}
+.play-game-container-img-col{
+    max-width: 50%;
+}
+.play-game-main-img-col img{
+    max-width: 100%;
+}
+.play-game-second-img-col{
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 400px;
+}
+.play-game-second-img-col img{
+    max-width: 80%;
+}
+/* ---- Play Games ------ style ------ end ---- */
 
-/* -- --- style ---- start */
-/* ----  ------ style ------ end ---- */
+/* -- careers--- style ---- start */
+#careers-id{
+    background: var(--primary-color);
+}
+.careers-container-row{
+    display: flex;
+}
+.careers-container-text-col{
+    max-width: 50%;
+    padding: 30px;
+}
+.careers-container-img-col{
+    max-width: 50%;
+}
+.careers-container-img-col img{
+    width: 100%;
+    height: 100%;
 
-/* -- --- style ---- start */
-/* ----  ------ style ------ end ---- */
+}
+.careers-list-main-col{
+    display: flex;
+    justify-content: space-between;
+}
+.careers-list-col-one{
+    max-width: 50%;
+}
+.careers-list-col-two{
+    max-width: 50%;
+    text-align: right;
+}
+/* ---- careers ------ style ------ end ---- */
+
+/* -- icon box --- style ---- start */
+#icon-box-id{
+    padding: 60px 0;
+}
+.box-icon-container-col{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    min-height: 200px;
+}
+.icon-box{
+    flex-basis: 220px;
+    border-radius: 50px;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.icon-box, h6{
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+.icon-box:hover{
+    border: 1px solid #F61C0D;
+}
+.icon-box h6:hover{
+    color: var(--primary-color);
+}
+
+/* ---- icon box  ------ style ------ end ---- */
+
+/* -- footer--- style ---- start */
+#footer-id{
+    padding: 60px 0;
+    background: var(--secondary-color);
+}
+.footer-logo-col img{
+    max-width: 250px;
+    max-height: 150PX;
+}
+.footer-container-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer-list-col ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.footer-icon-col ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.footer-privecy-col ul{ 
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+/* ---- footer ------ style ------ end ---- */
 
 /* -- --- style ---- start */
 /* ----  ------ style ------ end ---- */
